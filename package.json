@@ -1,6 +1,6 @@
 {
   "name": "bitcore-lib-hush",
-  "version": "0.13.19",
+  "version": "0.13.20",
   "description": "A pure and powerful JavaScript Hush library.",
   "author": "MyHush <contact@myhush.org>",
   "main": "index.js",
