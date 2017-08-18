@@ -96,7 +96,7 @@
     "lodash": "=3.10.1"
   },
   "devDependencies": {
-    "bitcore-build-hush": "myhush/bitcore-build-hush",
+    "bitcore-build-hush": "^0.5.4",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
