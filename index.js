@@ -9,8 +9,7 @@ bitcore.versionGuard = function(version) {
     var message = 'More than one instance of bitcore-lib-hush found. ' +
       'Please make sure to require bitcore-lib-hush and check that submodules do' +
       ' not also include their own bitcore-lib-hush dependency.';
-    // TODO: put this back if we start versioning again
-    //throw new Error(message);
+    throw new Error(message);
   }
 };
 bitcore.versionGuard(global._bitcore);
@@ -42,7 +41,7 @@ bitcore.util.preconditions = require('./lib/util/preconditions');
 // errors thrown by the library
 bitcore.errors = require('./lib/errors');
 
-// main bitcoin library
+// main Hush library
 bitcore.Address = require('./lib/address');
 bitcore.Block = require('./lib/block');
 bitcore.MerkleBlock = require('./lib/block/merkleblock');
@@ -67,5 +66,4 @@ bitcore.deps.elliptic = require('elliptic');
 bitcore.deps._ = require('lodash');
 
 // Internal usage, exposed for testing/advanced tweaking
-bitcore._HDKeyCache = require('./lib/hdkeycache');
 bitcore.Transaction.sighash = require('./lib/transaction/sighash');
