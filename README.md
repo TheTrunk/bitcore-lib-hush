@@ -3,7 +3,7 @@ Bitcore Library
 
 [![NPM Package](https://img.shields.io/npm/v/bitcore-lib.svg?style=flat-square)](https://www.npmjs.org/package/bitcore-lib-hush)
 
-A pure and powerful JavaScript Btcoin library.
+A pure and powerful JavaScript Hush library.
 
 ## Principles
 
