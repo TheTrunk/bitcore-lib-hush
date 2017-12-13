@@ -31,7 +31,7 @@ describe('URI', function() {
     uri.amount.should.equal('123.22');
     expect(uri.otherParam).to.be.undefined();
 
-    uri = URI.parse('Hush:1DP69gMMvSuYhbnxsi4EJEFufUAbDrEQfj?amount=123.22' +
+    uri = URI.parse('Hush:t1DP69gMMvSuYhbnxsi4EJEFufUAbDrEQfj?amount=123.22' +
                     '&other-param=something&req-extra=param');
     uri.address.should.equal('t1DP69gMMvSuYhbnxsi4EJEFufUAbDrEQfj');
     uri.amount.should.equal('123.22');
